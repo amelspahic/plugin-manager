@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PluginManager.Console.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PluginsServerUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:24920</Value>
+    </Setting>
+    <Setting Name="LocalPluginsFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">~/Plugins</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
