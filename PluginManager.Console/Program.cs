@@ -18,6 +18,7 @@ namespace PluginManager.Console
     {
         static void Main(string[] args)
         {
+            //Can be added somewhere else, but before PluginManagerService execution
             UnityContainer container = new UnityContainer();
             container.RegisterType<IAssemblyService, AssemblyService>(new HierarchicalLifetimeManager());
             container.RegisterType<IPluginService, PluginService>(new HierarchicalLifetimeManager());
